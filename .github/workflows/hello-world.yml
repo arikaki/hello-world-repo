@@ -10,14 +10,11 @@ on:
 
 jobs:
 
-  build:
+  hello-job:
 
     runs-on: ubuntu-latest
 
-    steps:
-
-      - uses: actions/checkout@v4
-      
+    steps:      
       - name: Echo text
         run: echo Hello, world!
       
